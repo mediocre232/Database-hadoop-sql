@@ -1,0 +1,14 @@
+CREATE TABLE  test (
+  id INT,
+  first_name VARCHAR(200)
+);
+  
+INSERT INTO test (id, first_name)
+VALUES
+   (1, 'Juan'),
+   (2,  ''),
+   (3, NULL),
+   (4, '    '),
+   (5, '  '),
+   (6, 'Carlos')
+;
