@@ -1,0 +1,22 @@
+# on EMR create custom jar   name: MapReduceWordCount   location:   s3://mapreducedemo1/mapreduce-0.0.1-SNAPSHOT.jar
+
+#arguments
+WordCount
+s3://mapreducedemo1/input.txt
+s3://mapreducedemo1/output
+
+#this organizes and counts input s3 data into output bucket 
+#input data:
+java php python cplusplus golang
+golang php c python redshift
+java apache hadoop kinesis
+spark emr hue hbase awsiot
+kinesis redshift aurora
+auorora kinesis redshift hadoop python java
+
+#ex from output 4 bucket:
+apache	1
+c	1
+hadoop	2
+hbase	1
+java	3
